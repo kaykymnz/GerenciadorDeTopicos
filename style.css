@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imgs/fundo.png);
+    background-size: 100%;
+    font-family: 'Silkscreen', cursive;
+}
+.container{
+    background: rgba(255, 255, 255, 0.59);
+    max-width: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.59);;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.form{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form label{
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.form input{
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.form input:focus{
+    background-color: rgb(142, 227, 238);
+}
+.form .cad{
+    background: #2196f3;
+    height: 32px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-family: 'Silkscreen', cursive;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.separator{
+    background-color: #999;
+    height: 2px;
+    border-radius: 2px;
+}
+.list_tasks{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.list_tasks ul{
+    list-style: none;
+}
+.list_tasks ul li{
+    background-color: #123456;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+}
+.btn{
+    background: #d1bd8f;
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    height: 20px;
+    width: 70px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-family: 'Silkscreen', cursive;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.list_tasks ul li:hover{
+    background-color: #47509f ;
+}
+.footer{
+    background-color: #FFC300;
+    border-radius: 4px;
+    padding: 12px;
+}
